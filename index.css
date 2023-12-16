@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+#header{
+    background-color: rgb(0, 0, 0); /*Cor de fundo*/
+    padding: 5vh; /*ajustamos o tamanho do preenchimento*/
+    text-decoration: none;
+    background-image: linear-gradient(rgba(24, 23, 23, 0.8), rgba(8, 8, 8, 0.8)) ,url(img/header\ img.png);
+    color:white;
+    
+    
+
+}
+.sessao{
+    background-color: grey;
+    color: white;
+    padding: 15em;
+}
+#img-div{
+    padding: 2.8%; /* Cuida do Preenchimento */ 
+    background-image: url(img/Background2.png); /* Usada para inserir imagens de fundo */
+    background-position: center; /* Aqui posicionamos nossa imagem para o centro */ 
+    background-size: auto; /* Background-Size: especifica o tamanho das imagens de fundo. Auto: Responsável por preencher totalmente a imagem. */
+}
+.sessao > button {
+     /*Chamamos nosso Button que está dentro dessa primeira sessão*/
+        padding: 20px; /*Tamanho do preenchimento interno do botão*/
+        border-radius: 50px; /*Borda arredondada do botão*/
+        width: 20vw; /*Tamanho lateral do botão (largura)*/
+        color: rgb(0, 0, 0); /*Cor da letra*/
+        border-color: rgb(0, 0, 0); /*Cor da borda*/
+        margin: 50px; /*Margem em volta do Button*/
+        font-size: 15px; /*Tamanho da letra dentro do button*/
+        background: transparent;
+        align-items: center;
+        text-align: center;
+    
+}
+.sessao > button:hover { /*Efeito ao passar o cursor */
+    background-color: rgb(255, 255, 255); /*Atribuimos a cor que ficará*/
+    color: rgb(0, 0, 0); /*Cor da letra que irá se tornar ao passar o cursos*/
+    border-color: rgb(172, 169, 159); /*cor da borda ao passar o cursor*/
+    transition: 0.8s; /*Adicionamos aqui uma transição*/
+    cursor: pointer;
+    text-align: center;
+ }
+ .sessao > h1{
+    padding: 70px;
+    text-align: center;
+    align-items: center;
+ }
+ .list-menu{
+    padding: 10px;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding-right: 50rem;
+}
+.list-menu a {
+    color: white;
+}
+.list-menu a:hover{
+    color: red;
+    transition: 0.3;
+    border-bottom: 4px, red ;
+}
+ 
