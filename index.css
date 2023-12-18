@@ -69,6 +69,21 @@
 .list-menu a:hover{
     color: red;
     transition: 0.3;
-    border-bottom: 4px, red ;
+    border-bottom: 4px, solid #fa0d0d;
+}
+.sec{
+    padding: 15em;
+    justify-content: space-between;
+    
+
+}
+#img{
+    width: 40vw; /* largura da imagem */
+    margin-left: 50vw; /* distancia do margem a esquerda  */
+    height: 40vw;
+    justify-content: space-between;
+    background: url(img/backgroundUnits.jpg);
+    background-position: center;
+    background-size: auto;
 }
  
